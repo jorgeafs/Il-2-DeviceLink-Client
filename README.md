@@ -7,3 +7,5 @@ Analisis: Consultar al Il-2 1946 el estado de una serie de componentes del avion
           
 Estado inicial: Pretendo realizar un programa sencillo que se comunique con el Il-2 1946 e imprima por pantalla los es-
                 tados devueltos por el juego. Puede que ademas los escriba en un fichero.
+                
+Estado actual: Realizado el programa para comunicar con el il2, muestra y escribe en un fichero la comunicacion.
