@@ -112,10 +112,9 @@ public class UtilFileGen<T> implements Serializable{
 	 * Salida: un boolean
 	 * Postcondiciones: Devuelve un true si se crea correctamente y false en caso de error o si ya existia
 	*/
-	@Deprecated
 	public boolean crearFicheroTexto (String nombreFichero){
 		boolean correcto = false;
-		/*File nuevoFichero = new File(nombreFichero+".txt");
+		File nuevoFichero = new File(nombreFichero+".txt");
 		ObjectOutputStream escribir = null;
 		
 		if(nuevoFichero.isFile() != true){
@@ -134,7 +133,7 @@ public class UtilFileGen<T> implements Serializable{
 					System.out.println("No se pudo cerrar correctamente");
 				}
 			}
-		}	*/	
+		}	
 		return correcto;
 	}
 	
@@ -376,10 +375,9 @@ public class UtilFileGen<T> implements Serializable{
 	 * Salida: un boolean
 	 * Postcondiciones: devuelve un boolean como true si se escribio bien y false en caso contrario o error 
 	*/
-	@Deprecated
 	public boolean escribirRegistroTexto(String introducir, String ficheroIntroducir) {
 		boolean devolver= false;
-		/*FileWriter flwEscribir = null;
+		FileWriter flwEscribir = null;
 		BufferedWriter Escribir = null;
 		
 		if (new File(ficheroIntroducir+".txt").isFile()){
@@ -399,7 +397,7 @@ public class UtilFileGen<T> implements Serializable{
 					e.printStackTrace();
 				}
 			}
-		} */
+		}
 		return devolver;
 	}
 	
